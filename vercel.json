@@ -1,5 +1,1 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "outputDirectory": "."
-}
+{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"outputDirectory":".","cleanUrls":true}
