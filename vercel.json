@@ -1,1 +1,1 @@
-{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"outputDirectory":".","cleanUrls":true}
+{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"outputDirectory":".","cleanUrls":true,"functions":{"api/*.js":{"includeFiles":"config.js"}},"rewrites":[{"source":"/","destination":"/api/site?route=home"},{"source":"/category/:cat","destination":"/api/site?route=home&category=:cat"},{"source":"/news/:slug","destination":"/api/site?route=article&slug=:slug"},{"source":"/sitemap.xml","destination":"/api/site?route=sitemap"}]}
